@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 ##
+```ts
 export class AppComponent {
   title = 'twoSum';
   inputArray:string = ''
@@ -18,7 +19,8 @@ export class AppComponent {
     this.twoSum(input,this.value)// method 1
     this.twoSum2(input,this.value) // method 2
     this.twoSum3(input,this.value) // method 3
-  }
+  } 
+```
 ## Approch 01
   twoSum3(nums: number[], target: number): number[] {
     this.result = []
