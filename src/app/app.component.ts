@@ -15,4 +15,17 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'twoSum';
+  value:any = ''
+
+  finalValueAfterOperations(operations: any): number {
+    operations = JSON.parse(operations)
+    let x = 0;
+    for(let i of operations){
+        if(i==="--X")x--;
+        if(i==="X--")x--;
+        if(i==="X++")x++;
+        if(i==="++X")x++;
+    }
+    return x;
+};
 }
