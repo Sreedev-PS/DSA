@@ -22,6 +22,7 @@ export class AppComponent {
   } 
 ```
 ## Approch 01
+```ts
   twoSum3(nums: number[], target: number): number[] {
     this.result = []
     const mapArray = new Map()
@@ -34,8 +35,10 @@ export class AppComponent {
     }
     return this.result
   }
+```
 ## Approch 02
-  twoSum2(nums: number[], target: number): number[] {
+  ```ts
+twoSum2(nums: number[], target: number): number[] {
     this.result = []
     const hash:{[key:number]:number} = {}
     for(let i = 0;i<nums.length;i++){
@@ -47,8 +50,10 @@ export class AppComponent {
     }
     return this.result
   }
+```
 ## Approch 03
-  twoSum(nums: number[], target: number): number[] {
+```ts  
+twoSum(nums: number[], target: number): number[] {
     let mapArray: any = {}
     this.result = []
     nums.forEach((x: any, index: any) => {
@@ -64,3 +69,4 @@ export class AppComponent {
 
 
 }
+```
