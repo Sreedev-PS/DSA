@@ -28,6 +28,8 @@ Explanation: "z" does not occur in any of the words. Hence, we return an empty a
 ##### x is a lowercase English letter.
 ##### words[i] consists only of lowercase English letters.
 
+## Approch 01
+
 ```ts
 function findWordsContaining(words: string[], x: string): number[] {
     let ans = [];
