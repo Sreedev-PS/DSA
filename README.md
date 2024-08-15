@@ -21,7 +21,7 @@ Output: [8,9,9,9,0,0,0,1]
 ##### It is guaranteed that the list represents a number that does not have leading zeros.
 
 ## Approch 01
-```
+```ts
 /**
  * Definition for singly-linked list.
  * class ListNode {
